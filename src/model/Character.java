@@ -1,10 +1,10 @@
 package model;
 
 public abstract class Character {
-    protected String name;
-    protected String description;
-    protected String habilities;
-    protected String group;
+    private String name;
+    private String description;
+    private String habilities;
+    private String group;
 
     public Character(String name, String description, String habilities, String group) {
         this.name = name;
